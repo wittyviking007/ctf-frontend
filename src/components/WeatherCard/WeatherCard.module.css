@@ -1,0 +1,28 @@
+.weatherCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f8f8f8;
+}
+
+.place {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+}
+
+.details div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details p {
+    margin: 4px 0;
+}
